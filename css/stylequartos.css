@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #28403D;
+}
+
+.container_quarto {
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: white;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.container_quarto h1 {
+    background-image: linear-gradient(to right, #546b68, #51857f);
+    font-family: 'Eczar', serif;
+}
+
+.container_quarto h3 {
+    padding-top: 20px;
+}
+
+.quarto_inicio {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.quarto_inicio li {
+    list-style: none;
+}
+
+.tipos_quartos h2 {
+    border-bottom: 3px solid #28403D;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    font-family: 'Xanh Mono', monospace;
+    font-size: 29px;
+}
+
+.fotos_quartos {
+    display: flex;
+}
+
+.fotos_quartos img {
+    width: 360px;
+    height: 280px;
+    padding: 25px 10px 80px 10px;
+}
+

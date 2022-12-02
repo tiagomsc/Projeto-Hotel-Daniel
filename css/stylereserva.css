@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #28403D;
+}
+
+body img {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.conteudo {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 1900px;
+    background-color: white;
+}
+
+.back{
+    background-image: linear-gradient(to right, #546b68, #51857f);
+    padding: 5px 0px 5px 0px;
+}
+
+.painel_adm{
+    padding-top: 70px;
+}
+
+.painel_adm h1{
+    font-family: 'Eczar', serif;
+}
+
+.painel_adm p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: rgb(53, 49, 49);
+    margin-top: 20px;
+}
+
+p {
+    font-family: 'Sono', sans-serif;
+}
+
+.inicio_praia{
+    line-height: 25px;
+    margin-top: 80px;
+}
+
+.fotos_praia {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fotos_praia img {
+    width: 450px;
+    height: 300px;
+    padding: 25px 20px 50px 20px;
+}
+
+.border{
+    border-top: 1px solid black;
+}
+
+.inicio_reserva{
+    line-height: 25px;
+    margin-top: 40px;
+}
+
+.formulario {
+    position: absolute;
+    margin: 15px 100px 85px 180px;
+    background-color: #005A5B;
+    padding: 19px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: white;
+    width: 600px;
+}
+
+fieldset {
+    border: 4px solid #28403D;
+}
+
+legend {
+    text-align: center;
+    padding: 5px;
+    color: rgb(170, 170, 60);
+}
+
+.input_form{
+    position: relative;
+}
+
+.input_esp {
+    background: none; /* tira o background do input */
+    border: none; /* tira as bordas laterais */
+    border-bottom: 1px solid black;
+    outline: none; /* tirar a marcação quando clica no input */
+    width: 100%;
+}
+
+.button {
+    background-image: linear-gradient(to right, #28403D, #2d4d49);
+    width: 100%;
+    border: none;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.button a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.button_lougot {
+    background-color: #3b5a56;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+

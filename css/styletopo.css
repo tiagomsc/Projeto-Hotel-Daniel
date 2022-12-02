@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+}
+
+.topo h1 {
+    padding-left: 50px;
+    color: rgb(58, 58, 148);
+    font-family: 'Libre Baskerville', serif;
+}
+
+.topo a {
+    text-decoration: none;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+    padding: 10px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+.menu a {
+    padding-right: 25px;
+    color: black;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+}
+
+body img {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+body {
+    background-color: #28403D;
+}
+
+.conteudo {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 45%;
+    background-color: white;
+}
+
+h1{
+    padding-top: 70px;
+    font-family: 'Sono', sans-serif;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Sono', sans-serif;
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+}
+
+p {
+    padding-top: 40px;
+    font-family: 'Eczar', serif;
+    font-size: 17px;
+}
+
+.button {
+    background-image: linear-gradient(to right, #28403D, #2d4d49);
+    width: 70%;
+    border: none;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.button a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}

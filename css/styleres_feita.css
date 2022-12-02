@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #28403D;
+}
+
+body img {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.conteudo {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 100%;
+    background-color: white;
+}
+
+h1 {
+    padding-top: 50px;
+    font-family: 'Sono', sans-serif;
+}
+
+h3 {
+    padding-top: 20px;
+    font-family: 'Eczar', serif;
+}
+
+table {
+    margin: 0 auto;
+    margin-top: 35px;
+    text-align: center;
+    border: 1;
+    border-collapse: collapse; /* CSS2 */
+    background: #FFFFF0;
+}
+ 
+table td {
+    border: 1px solid black;
+    padding: 7px;
+    background: #FFFFF0;
+}
+ 
+table th {
+    border: 1px solid black;
+    padding: 7px;
+    
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.button {
+    background-image: linear-gradient(to right, #28403D, #2d4d49);
+    width: 50%;
+    border: none;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.button a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
