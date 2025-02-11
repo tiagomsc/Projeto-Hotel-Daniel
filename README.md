@@ -6,7 +6,6 @@ DESCRIÇÃO: Projeto sobre o Hotel Unipê que utiliza front-end com HTML e CSS e
 
 FUNCIONALIDADE: Ter opções sobre o hotel, os espaços que possui, informações sobre os quartos e login. Quando faz o login abre um Painel Privado que apresenta as praias e é onde faz a reserva.
 
-PARTICIPANTES: Lucas Alcântara Pinho da Nóbrega (RGM: 29319161).
 
 PARTICIPANTES: Tiago Monteiro Simões Calvacanti (RGM: 31638228).
 
